@@ -9,6 +9,9 @@ import random as rnd
 # Feature 3 1번 commit
 # Feature 3 2번 commit
 
+# Feature 5 1st commit
+# Feature 5 2nd commit
+
 def integrate_dataframe(train:pd.DataFrame, test:pd.DataFrame) -> pd.DataFrame:
     """전처리를 위해 Train, Test 데이터 통합"""
     df = pd.concat([train, test], axis=0)
