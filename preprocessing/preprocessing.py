@@ -3,6 +3,8 @@ import pandas as pd
 import numpy as np
 import random as rnd
 
+# 1번 commit
+
 def integrate_dataframe(train:pd.DataFrame, test:pd.DataFrame) -> pd.DataFrame:
     """전처리를 위해 Train, Test 데이터 통합"""
     df = pd.concat([train, test], axis=0)
