@@ -4,6 +4,7 @@ import numpy as np
 import random as rnd
 
 # 1번 commit
+# 2번 commit
 
 def integrate_dataframe(train:pd.DataFrame, test:pd.DataFrame) -> pd.DataFrame:
     """전처리를 위해 Train, Test 데이터 통합"""
