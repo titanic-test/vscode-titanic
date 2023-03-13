@@ -3,6 +3,9 @@ import pandas as pd
 import numpy as np
 import random as rnd
 
+# feature1 분기 테스트
+# 두번째 commit용
+
 def integrate_dataframe(train:pd.DataFrame, test:pd.DataFrame) -> pd.DataFrame:
     """전처리를 위해 Train, Test 데이터 통합"""
     df = pd.concat([train, test], axis=0)
